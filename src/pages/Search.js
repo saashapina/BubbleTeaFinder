@@ -119,23 +119,12 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: 'white',
     height: '100%',
-  },
-  zipText: {
-    textAlign: 'center',
-    fontSize: 20,
-    marginTop: 45,
-  },
-  input: {
-    height: 40,
-    width: 250,
-    paddingLeft: 10,
-    backgroundColor: 'orange',
-    marginTop: 5,
-    marginLeft: 60,
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   buttonNearMe: {
-    display: 'flex',
-    textAlign: 'center',
     padding: 20,
     backgroundColor: 'rgb(37, 160, 205)',
     height: 180,
@@ -143,8 +132,17 @@ const styles = StyleSheet.create({
     borderRadius: 200 / 2,
     justifyContent: 'center',
     alignItems: 'center',
-    marginLeft: 90,
-    marginTop: 45,
+  },
+  zipText: {
+    textAlign: 'center',
+    fontSize: 20,
+    marginTop: 55,
+  },
+  input: {
+    height: 40,
+    width: 250,
+    backgroundColor: 'orange',
+    marginTop: 15,
   },
   button: {
     display: 'flex',
@@ -154,8 +152,7 @@ const styles = StyleSheet.create({
     width: 190,
     justifyContent: 'center',
     alignItems: 'center',
-    marginLeft: 90,
-    marginTop: 30,
+    marginTop: 25,
   },
   buttonText: {
     fontSize: 20,

@@ -9,7 +9,7 @@ const App = () => {
   return (
     <React.Fragment>
       <SafeAreaView style={styles.header}>
-        <Text style={styles.text}>Bubble Tea Finder</Text>
+        <Text style={styles.text}>Where's My Bubble Tea?</Text>
       </SafeAreaView>
       <Routes />
     </React.Fragment>

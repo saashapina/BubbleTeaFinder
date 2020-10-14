@@ -19,6 +19,7 @@
 		B086C25116F5A6C4F77B5942 /* libPods-BubbleTeaFinder-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FDAC0557438024EA131E6F /* libPods-BubbleTeaFinder-tvOS.a */; };
 		B744D107E6CF76FE51545EB6 /* libPods-BubbleTeaFinder-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 821DF28BD3BA16844FD78F15 /* libPods-BubbleTeaFinder-tvOSTests.a */; };
 		BE135CFB89CF65F3F67CC85C /* libPods-BubbleTeaFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EB1020DCEC125284999009 /* libPods-BubbleTeaFinder.a */; };
+		E5AAD2112536CF6600BBB743 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AAD2102536CF6600BBB743 /* MapKit.framework */; };
 		ECA8ED051E2EB87C6B3848C4 /* libPods-BubbleTeaFinder-BubbleTeaFinderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410762471B4B7A1245858A71 /* libPods-BubbleTeaFinder-BubbleTeaFinderTests.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		89CA50EE0151F7E808B6EABB /* Pods-BubbleTeaFinder-BubbleTeaFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleTeaFinder-BubbleTeaFinderTests.debug.xcconfig"; path = "Target Support Files/Pods-BubbleTeaFinder-BubbleTeaFinderTests/Pods-BubbleTeaFinder-BubbleTeaFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB3CBC02F38B8E8B12AB121D /* Pods-BubbleTeaFinder-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleTeaFinder-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-BubbleTeaFinder-tvOS/Pods-BubbleTeaFinder-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D3E96248A96B35ABA6344373 /* Pods-BubbleTeaFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleTeaFinder.debug.xcconfig"; path = "Target Support Files/Pods-BubbleTeaFinder/Pods-BubbleTeaFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		E5AAD2102536CF6600BBB743 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EB6E3F62F1C4B528A7B3001B /* Pods-BubbleTeaFinder-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleTeaFinder-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-BubbleTeaFinder-tvOSTests/Pods-BubbleTeaFinder-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -82,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5AAD2112536CF6600BBB743 /* MapKit.framework in Frameworks */,
 				BE135CFB89CF65F3F67CC85C /* libPods-BubbleTeaFinder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +142,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E5AAD2102536CF6600BBB743 /* MapKit.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				26EB1020DCEC125284999009 /* libPods-BubbleTeaFinder.a */,
@@ -623,7 +627,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.saasha.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleTeaFinder.app/BubbleTeaFinder";
 			};
@@ -643,7 +647,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.saasha.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleTeaFinder.app/BubbleTeaFinder";
 			};
@@ -717,7 +721,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.BubbleTeaFinder-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.saasha.BubbleTeaFinder-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -745,7 +749,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.BubbleTeaFinder-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.saasha.BubbleTeaFinder-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -772,7 +776,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.BubbleTeaFinder-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.saasha.BubbleTeaFinder-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleTeaFinder-tvOS.app/BubbleTeaFinder-tvOS";
@@ -799,7 +803,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.BubbleTeaFinder-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.saasha.BubbleTeaFinder-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleTeaFinder-tvOS.app/BubbleTeaFinder-tvOS";
