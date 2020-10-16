@@ -83,6 +83,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "Bubble Tea Finder"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

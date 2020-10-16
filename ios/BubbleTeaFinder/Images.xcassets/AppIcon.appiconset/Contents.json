@@ -1,55 +1,55 @@
 {
   "images" : [
     {
-      "filename" : "bubbletea-1024-40.png",
+      "filename" : "bubbletea-white-40.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
-      "filename" : "bubbletea-1024-20@3x.png",
+      "filename" : "bubbletea-white-60.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
-      "filename" : "bubbletea-1024-29@2x.png",
+      "filename" : "bubbletea-1024-white-29@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "bubbletea-1024-29@3x.png",
+      "filename" : "bubbletea-1024-white-29@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
-      "filename" : "bubbletea-1024-40@2x.png",
+      "filename" : "bubbletea-1024-white-40@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "bubbletea-1024-60@2x.png",
+      "filename" : "bubbletea-1024-white-40@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
-      "filename" : "bubbletea-1024-60@2x-1.png",
+      "filename" : "bubbletea-1024-white-60@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
-      "filename" : "bubbletea-1024-60@3x.png",
+      "filename" : "bubbletea-1024-white-60@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
     },
     {
-      "filename" : "bubbletea-1024.png",
+      "filename" : "bubbletea-1024-white.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
